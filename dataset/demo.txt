@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines of text.
+Each line is written as a separate element in the list.
+You can write more lines here.
