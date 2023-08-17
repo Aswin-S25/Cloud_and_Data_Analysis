@@ -1,29 +1,30 @@
 # a) sorting a csv file with multiple fields
 
-import pandas as pd
+# import pandas as pd
 
-def sorting_csvfile(filename) : 
-    df = pd.read_csv(filename, sep=" ")
-    df = df.sort_values(by=["age"], ascending=True)
-    print(f"sorted value is \n{df}")
+# def sorting_csvfile(filename) : 
+#     df = pd.read_csv(filename, sep=" ")
+#     df = df.sort_values(by=["age"], ascending=False)
+#     print(f"sorted value is \n{df}")
     
-csv_filename = "dataset/student.csv"
+# csv_filename = "dataset/student.csv"  
 
-sorting_csvfile(csv_filename)
+# sorting_csvfile(csv_filename)
     
 # b) analysing and printing the results of a csv file based on different criteria
 
-import pandas as pd
+# import pandas as pd
 
-def res_criteria(filename):
-    df = pd.read_csv(filename, sep=" ")
-    df1 = df[df['age'] > 21]
-    print(f"data which have age greater than 12 is \n {df1}")
+# def res_criteria(filename):
+#     df = pd.read_csv(filename, sep=" ")
+#     df1 = df[df['age'] > 21]
+#     df1.to_csv("dataset/new3.csv", index=False)
+#     print(f"data which have age greater than 12 is \n {df1}")
 
     
-filename = "dataset/student.csv"
+# filename = "dataset/student.csv"
 
-res_criteria(filename)
+# res_criteria(filename)
 
 
 # c) perform mergin of csv files, appending a new field to an existing csv file,

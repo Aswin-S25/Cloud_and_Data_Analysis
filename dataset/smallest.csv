@@ -1,0 +1,5 @@
+ Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm         Species
+ 23            4.6           3.6            1.0           0.2     Iris-setosa
+ 99            5.1           2.5            3.0           1.1 Iris-versicolor
+107            4.9           2.5            4.5           1.7  Iris-virginica
+

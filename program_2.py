@@ -62,9 +62,37 @@ text_data = [
 csv_filename = 'dataset/demo.csv'
 text_filename = 'dataset/demo.txt'
 
-write_to_csv(csv_filename, csv_data)
-write_to_text(text_filename, text_data)
+# write_to_csv(csv_filename, csv_data)
+# write_to_text(text_filename, text_data)
 
 
 read_and_display_csv(csv_filename)
-read_and_display_text(text_filename)
+# read_and_display_text(text_filename)
+
+
+
+
+
+import csv
+
+# with open("dataset/demo.csv", 'w') as file1 :
+#     csvwriter = csv.writer(file1)
+#     for i in range(2):
+#         name = input("enter the name: ")
+#         age = int(input("enter the age: "))
+#         csvwriter.writerow([name, age])
+        
+# with open('dataset/demo.csv', 'r') as file2:
+#     csvreader = csv.reader(file2)
+#     for i in csvreader:
+#         print(i)
+
+
+
+
+
+
+
+
+
+
